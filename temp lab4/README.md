@@ -1,0 +1,6 @@
+# Systems 2 Lab 4
+Date: 11/07/2022
+Authors: Matthew Kuriakose and Lohith Maralla
+Purpose: This project was made by  as a means to develop a calculator that utilizes threads to make calculations quickly. 
+We worked on this project for some time and came across quite a few bugs that we had to resolve. We used mutexes with our threads to ensure that there would be no errors with the computations as a result of our algorithm. We also implemented system calls by making the calculator write the solutions to our computations to a file. This calculator also implements data-level parallelism since threads are created for each operation and when multiplication and division are priortized in PEMDAS these threads execute synchronously when multiplication/division is being done with the addition/subtraction threads. That means data-paralleism is executed in certain cases in the program.
+Note: When running the code, you must enter parantheses to compute a calculation of more than 2 numbers. For example: 2+2+4 must be written as (2+2+4) or 2+4*2 must be written as (2+4*2)
